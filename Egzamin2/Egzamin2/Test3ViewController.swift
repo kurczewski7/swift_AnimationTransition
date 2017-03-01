@@ -9,6 +9,8 @@
 import UIKit
 
 class Test3ViewController: UIViewController {
+        let currentIndex:Int = 2
+    
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var button1: UIButton!
     @IBOutlet weak var button2: UIButton!
@@ -28,7 +30,15 @@ class Test3ViewController: UIViewController {
         button3.setTitle(testList[currentIndex].4, for: .normal)
 
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)         {
+        
+        if segue.identifier == "segueTest3A"  {    testList[currentIndex].6=1   }
+        if segue.identifier == "segueTest3B"  {    testList[currentIndex].6=2   }
+        if segue.identifier == "segueTest3C"  {    testList[currentIndex].6=3   }
+    }
 
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
