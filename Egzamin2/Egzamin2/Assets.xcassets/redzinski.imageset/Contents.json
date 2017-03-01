@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "redzinski.JPG",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "redzinski.JPG",
       "scale" : "2x"
     },
     {
