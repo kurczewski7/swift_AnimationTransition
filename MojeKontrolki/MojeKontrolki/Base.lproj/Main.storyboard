@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="eem-kV-6uY">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MojeKontrolki" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZV3-sx-Ubg" customClass="KontrolkaTrzyKlawisze" customModule="MojeKontrolki" customModuleProvider="target">
+                                <color key="backgroundColor" red="1" green="0.80873946929999996" blue="0.48386762100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pTb-wU-jC1" customClass="KontrolkaTrzyKlawisze" customModule="MojeKontrolki" customModuleProvider="target">
+                                <color key="backgroundColor" red="0.33333333329999998" green="0.72549019609999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ZV3-sx-Ubg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="77z-lH-aJc"/>
+                            <constraint firstItem="pTb-wU-jC1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="51" id="DkJ-mO-T5q"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="pTb-wU-jC1" secondAttribute="bottom" constant="143" id="Iac-Tu-GvR"/>
+                            <constraint firstAttribute="bottom" secondItem="ZV3-sx-Ubg" secondAttribute="bottom" constant="511" id="TEt-pb-aKi"/>
+                            <constraint firstItem="pTb-wU-jC1" firstAttribute="trailing" secondItem="ZV3-sx-Ubg" secondAttribute="trailing" constant="-68" id="cae-iH-H1y"/>
+                            <constraint firstItem="pTb-wU-jC1" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="396" id="gj5-BW-QNg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="pTb-wU-jC1" secondAttribute="trailing" constant="52" id="qNt-TQ-x4o"/>
+                            <constraint firstItem="ZV3-sx-Ubg" firstAttribute="centerX" secondItem="pTb-wU-jC1" secondAttribute="centerX" id="vzT-1U-WCV"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="cqU-ct-4gO">
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="45K-54-bLA">
+                            <connections>
+                                <segue destination="6vu-hd-Qg6" kind="show" id="1Qb-l4-lLV"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1056.8" y="122.78860569715144"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="rl9-xa-fNz">
+            <objects>
+                <viewController id="6vu-hd-Qg6" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cBt-xX-OwU"/>
+                        <viewControllerLayoutGuide type="bottom" id="cxA-VG-pfQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ngV-S1-83n">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5RZ-9j-u8i" customClass="KontrolkaPrzyciskiPionowo" customModule="MojeKontrolki" customModuleProvider="target">
+                                <frame key="frameInset" minY="154" width="375" height="292"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pEI-Bv-fPR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1736.8" y="118.29085457271366"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="9Nc-Gw-hVq">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="eem-kV-6uY" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="byr-Zw-raR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="HvV-ox-wtd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b2o-sG-KGm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="122.78860569715144"/>
+        </scene>
+    </scenes>
+</document>
