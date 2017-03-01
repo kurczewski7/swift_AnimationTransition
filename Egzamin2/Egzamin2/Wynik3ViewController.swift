@@ -24,11 +24,35 @@ class Wynik3ViewController: UIViewController {
         button1.setTitle(testList[currentIndex].2, for: .normal)
         button2.setTitle(testList[currentIndex].3, for: .normal)
         button3.setTitle(testList[currentIndex].4, for: .normal)
-
+        
+        markButtons(currentIndex)
 
         // Do any additional setup after loading the view.
     }
 
+    func markButtons(_ currentIndex: Int)
+    {
+        let okWybor=testList[currentIndex].5
+        
+        if(okWybor != testList[currentIndex].6){
+            switch testList[currentIndex].6 {
+            case 1: button1.backgroundColor=UIColor.red
+            case 2: button2.backgroundColor=UIColor.red
+            case 3: button3.backgroundColor=UIColor.red
+            default: break
+            }
+        }
+        
+        switch okWybor {
+        case 1: button1.backgroundColor=UIColor.green
+        case 2: button2.backgroundColor=UIColor.green
+        case 3: button3.backgroundColor=UIColor.green
+        default: break
+        }
+        
+        
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
