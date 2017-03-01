@@ -11,9 +11,12 @@ import UIKit
 var testList: [(String, String, String, String,String, Int, Int)]=[
     ("Jaki to most?", "most", " Most Rędzński "," Most Zwierzyniecki "," Most Grunwaldzki ",3,0),
     ("W pobliżu czego  jest ten most?", "wrynku", " Placu Grunwaldzkiego "," Rynku "," Hali Ludowej ",2,0),
-    ("Czy ten most nazywa się", "redzinski", " Most Rędzński "," Most Sikorskiego "," Most Milenijny ",1,1)]
+    ("Czy ten most nazywa się", "redzinski", " Most Rędzński "," Most Sikorskiego "," Most Milenijny ",1,0)]
+
+
 
 class Test1ViewController: UIViewController {
+    let currentIndex:Int = 0
 
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var button1: UIButton!
@@ -25,8 +28,8 @@ class Test1ViewController: UIViewController {
         super.viewDidLoad()
 
         let currentIndex = 0
-        testList[0].6=2
-        testList[1].6=2
+        //  testList[0].6=2
+        //  testList[1].6=2
         
         titleLabel.text=testList[currentIndex].0
         image.image = UIImage(named: testList[currentIndex].1)
@@ -40,8 +43,14 @@ class Test1ViewController: UIViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+    
+        // Dispose of any resources that can be recreated.  
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)         {
         
-        // Dispose of any resources that can be recreated.
+        if segue.identifier == "segueTest1A"  {    testList[currentIndex].6=1   }
+        if segue.identifier == "segueTest1B"  {    testList[currentIndex].6=2   }
+        if segue.identifier == "segueTest1C"  {    testList[currentIndex].6=3   }
     }
     
 

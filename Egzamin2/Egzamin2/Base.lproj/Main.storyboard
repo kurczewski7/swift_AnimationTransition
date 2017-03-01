@@ -11,7 +11,6 @@
         <!--Start-->
         <scene sceneID="xdw-Bt-tbF">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="EKx-Hn-NbN" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="6Ml-IB-cUh" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="MCL-CI-Age"/>
@@ -43,13 +42,13 @@
                         </barButtonItem>
                     </navigationItem>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EKx-Hn-NbN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="279" y="28"/>
+            <point key="canvasLocation" x="-410" y="27"/>
         </scene>
         <!--Pierwszy-->
         <scene sceneID="ZKV-RX-roC">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bDj-B8-1q5" sceneMemberID="firstResponder"/>
                 <viewController id="nKf-7r-D9u" customClass="Test1ViewController" customModule="Egzamin2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xm8-M7-OJT"/>
@@ -59,7 +58,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1E444930-4E0E-4E14-96B6-849BBBEBF296" translatesAutoresizingMaskIntoConstraints="NO" id="ssH-fn-gFU">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="C4CEEC79-7E24-4162-B4CD-D68E3D997710" translatesAutoresizingMaskIntoConstraints="NO" id="ssH-fn-gFU">
                                 <color key="backgroundColor" red="0.33333333329999998" green="0.72549019609999998" blue="0.84313725490000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="ssH-fn-gFU" secondAttribute="height" multiplier="4:3" id="rid-GO-J7X"/>
@@ -140,13 +139,13 @@
                         <outlet property="titleLabel" destination="3OU-VN-Gf1" id="5Vk-fC-ebo"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bDj-B8-1q5" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1034" y="27"/>
+            <point key="canvasLocation" x="351" y="27"/>
         </scene>
         <!--Trzeci-->
         <scene sceneID="bGB-T1-2fR">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Dj1-jC-9XF" sceneMemberID="firstResponder"/>
                 <viewController id="Lt4-tK-0Xd" customClass="Test3ViewController" customModule="Egzamin2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="LpP-G2-Syu"/>
@@ -156,7 +155,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1E444930-4E0E-4E14-96B6-849BBBEBF296" translatesAutoresizingMaskIntoConstraints="NO" id="38n-mT-txH">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="C4CEEC79-7E24-4162-B4CD-D68E3D997710" translatesAutoresizingMaskIntoConstraints="NO" id="38n-mT-txH">
                                 <color key="backgroundColor" red="0.33333333329999998" green="0.72549019609999998" blue="0.84313725490000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="38n-mT-txH" secondAttribute="height" multiplier="4:3" id="Fat-Mo-JsC"/>
@@ -176,6 +175,9 @@
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" red="0.63548937179999998" green="0.63548937179999998" blue="0.63548937179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="Prs-Ze-250" kind="show" identifier="segueTest3A" id="4at-lg-cs8"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="prS-ks-k4W">
                                         <color key="backgroundColor" red="0.33333333329999998" green="0.72549019609999998" blue="0.84313725490000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -184,6 +186,9 @@
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" red="0.63548937179999998" green="0.63548937179999998" blue="0.63548937179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="Prs-Ze-250" kind="show" identifier="segueTest3B" id="8PI-sW-nxq"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JAd-Gd-PJE">
                                         <color key="backgroundColor" red="0.33333333329999998" green="0.72549019609999998" blue="0.84313725490000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -192,6 +197,9 @@
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" red="0.63548937179999998" green="0.63548937179999998" blue="0.63548937179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="Prs-Ze-250" kind="show" identifier="segueTest3C" id="LtW-Tk-aaS"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -216,7 +224,7 @@
                     <navigationItem key="navigationItem" title="Trzeci" id="HBh-4L-0Mt">
                         <barButtonItem key="rightBarButtonItem" title="Wyniki" id="WvO-rT-eHA">
                             <connections>
-                                <segue destination="Prs-Ze-250" kind="show" id="uLw-ks-xAP"/>
+                                <segue destination="Prs-Ze-250" kind="show" identifier="segueTest3" id="uLw-ks-xAP"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -228,13 +236,13 @@
                         <outlet property="titleLabel" destination="kL1-Nn-wak" id="VFL-BZ-3WQ"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dj1-jC-9XF" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2261.5" y="40.5"/>
+            <point key="canvasLocation" x="1862" y="27"/>
         </scene>
         <!--Wyniki-->
         <scene sceneID="Yua-cn-fdm">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="43E-AK-9dB" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="Prs-Ze-250" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hEc-Fa-jYO"/>
@@ -253,13 +261,13 @@
                         </barButtonItem>
                     </navigationItem>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="43E-AK-9dB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2748.5" y="39.5"/>
+            <point key="canvasLocation" x="2750" y="27"/>
         </scene>
         <!--Drugi-->
         <scene sceneID="QM0-p6-pBy">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Vkk-Kh-f5m" sceneMemberID="firstResponder"/>
                 <viewController id="4J3-GU-CRN" customClass="Test2ViewController" customModule="Egzamin2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mMR-UN-BwG"/>
@@ -269,7 +277,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1E444930-4E0E-4E14-96B6-849BBBEBF296" translatesAutoresizingMaskIntoConstraints="NO" id="ZwJ-Uj-vhw">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="C4CEEC79-7E24-4162-B4CD-D68E3D997710" translatesAutoresizingMaskIntoConstraints="NO" id="ZwJ-Uj-vhw">
                                 <color key="backgroundColor" red="0.33333333329999998" green="0.72549019609999998" blue="0.84313725490000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="ZwJ-Uj-vhw" secondAttribute="height" multiplier="4:3" id="qTs-N7-7QT"/>
@@ -289,6 +297,9 @@
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" red="0.63548937179999998" green="0.63548937179999998" blue="0.63548937179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="Lt4-tK-0Xd" kind="show" identifier="segueTest2A" id="krW-mH-cc7"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xcc-vJ-gYP">
                                         <color key="backgroundColor" red="0.33333333329999998" green="0.72549019609999998" blue="0.84313725490000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -297,6 +308,9 @@
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" red="0.63548937179999998" green="0.63548937179999998" blue="0.63548937179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="Lt4-tK-0Xd" kind="show" identifier="segueTest2B" id="4Ct-wB-Avu"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oXj-PB-izy">
                                         <color key="backgroundColor" red="0.33333333329999998" green="0.72549019609999998" blue="0.84313725490000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -305,6 +319,9 @@
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" red="0.63548937179999998" green="0.63548937179999998" blue="0.63548937179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="Lt4-tK-0Xd" kind="show" identifier="segueTest2C" id="pgv-8u-vbS"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -329,7 +346,7 @@
                     <navigationItem key="navigationItem" title="Drugi" id="bfW-1L-Dkg">
                         <barButtonItem key="rightBarButtonItem" title="Test 3" id="YS8-Ei-wUr">
                             <connections>
-                                <segue destination="Lt4-tK-0Xd" kind="show" id="1gy-Xc-3wa"/>
+                                <segue destination="Lt4-tK-0Xd" kind="show" identifier="segueTest2" id="1gy-Xc-3wa"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -341,13 +358,13 @@
                         <outlet property="titleLabel" destination="aIf-1a-R1g" id="dCh-Xw-5wP"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vkk-Kh-f5m" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1812.5" y="22.5"/>
+            <point key="canvasLocation" x="1102" y="27"/>
         </scene>
         <!--Odpowiedź 1-->
         <scene sceneID="2po-N5-Ak6">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="2Gt-nr-uG2" sceneMemberID="firstResponder"/>
                 <viewController id="0Wq-8t-mg5" customClass="Wynik1ViewController" customModule="Egzamin2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dE7-yA-uFG"/>
@@ -357,7 +374,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="916FC5B3-9217-410F-8398-F6DECBB34540" translatesAutoresizingMaskIntoConstraints="NO" id="aGg-eJ-8dY">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="467F78B6-9254-4FD2-90F4-B62A592B75C1" translatesAutoresizingMaskIntoConstraints="NO" id="aGg-eJ-8dY">
                                 <color key="backgroundColor" red="0.33333333329999998" green="0.72549019609999998" blue="0.84313725490000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="aGg-eJ-8dY" secondAttribute="height" multiplier="4:3" id="yru-6f-Qe2"/>
@@ -377,6 +394,9 @@
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" red="0.63548937179999998" green="0.63548937179999998" blue="0.63548937179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="jhx-NA-eih" kind="show" id="Lg4-4r-jS7"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WpH-a4-GjS">
                                         <color key="backgroundColor" red="0.33333333329999998" green="0.72549019609999998" blue="0.84313725490000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -385,6 +405,9 @@
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" red="0.63548937179999998" green="0.63548937179999998" blue="0.63548937179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="jhx-NA-eih" kind="show" id="Mn8-p1-uK5"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DNT-74-qL6">
                                         <color key="backgroundColor" red="0.33333333329999998" green="0.72549019609999998" blue="0.84313725490000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -393,6 +416,9 @@
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" red="0.63548937179999998" green="0.63548937179999998" blue="0.63548937179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="jhx-NA-eih" kind="show" id="Lvs-eh-4zo"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -429,8 +455,9 @@
                         <outlet property="titleLabel" destination="Ehg-0s-7lh" id="T6x-ek-37U"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Gt-nr-uG2" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3615.5" y="40.5"/>
+            <point key="canvasLocation" x="3428" y="34"/>
         </scene>
         <!--Odpowiedź 2-->
         <scene sceneID="R6J-ce-9CW">
@@ -464,6 +491,9 @@
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" red="0.63548937179999998" green="0.63548937179999998" blue="0.63548937179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="Trk-uF-sOa" kind="show" id="GjL-Tz-4EF"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AFb-7Q-LNQ">
                                         <color key="backgroundColor" red="0.33333333329999998" green="0.72549019609999998" blue="0.84313725490000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -472,6 +502,9 @@
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" red="0.63548937179999998" green="0.63548937179999998" blue="0.63548937179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="Trk-uF-sOa" kind="show" id="nBg-V3-RcC"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ruo-tM-AeS">
                                         <color key="backgroundColor" red="0.33333333329999998" green="0.72549019609999998" blue="0.84313725490000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -480,6 +513,9 @@
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" red="0.63548937179999998" green="0.63548937179999998" blue="0.63548937179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="Trk-uF-sOa" kind="show" id="gfs-LG-ONO"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -532,7 +568,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1E444930-4E0E-4E14-96B6-849BBBEBF296" translatesAutoresizingMaskIntoConstraints="NO" id="3M6-Gx-Zmd">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="C4CEEC79-7E24-4162-B4CD-D68E3D997710" translatesAutoresizingMaskIntoConstraints="NO" id="3M6-Gx-Zmd">
                                 <color key="backgroundColor" red="0.33333333329999998" green="0.72549019609999998" blue="0.84313725490000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="3M6-Gx-Zmd" secondAttribute="height" multiplier="4:3" id="nNj-TW-6zX"/>
@@ -600,12 +636,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JK6-aC-hGJ" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4555.5" y="40.5"/>
+            <point key="canvasLocation" x="4911" y="40"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="fty-jL-MRf">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="b73-5w-x8y" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3fS-b9-rr8" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="zUy-PN-6hV">
@@ -617,12 +652,13 @@
                         <segue destination="6Ml-IB-cUh" kind="relationship" relationship="rootViewController" id="rBg-iF-4aD"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b73-5w-x8y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-460" y="29"/>
+            <point key="canvasLocation" x="-1124" y="27"/>
         </scene>
     </scenes>
     <resources>
-        <image name="1E444930-4E0E-4E14-96B6-849BBBEBF296" width="501" height="370">
+        <image name="467F78B6-9254-4FD2-90F4-B62A592B75C1" width="501" height="370">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPT5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQrLjE3OlUkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -13034,7 +13070,7 @@ AAtagwALWocAC1qOAAtalgALWqMAC1qoAAtaqgALWqwAC1qxAAtauQALWrwAC1rBAAtayQALWswAC1re
 AAta4QALWuYAAAAAAAAEAQAAAAAAAABBAAAAAAAAAAAAAAAAAAta6A
 </mutableData>
         </image>
-        <image name="916FC5B3-9217-410F-8398-F6DECBB34540" width="501" height="370">
+        <image name="C4CEEC79-7E24-4162-B4CD-D68E3D997710" width="501" height="370">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPT5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQrLjE3OlUkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -25449,6 +25485,10 @@ AAta4QALWuYAAAAAAAAEAQAAAAAAAABBAAAAAAAAAAAAAAAAAAta6A
         <image name="most" width="250" height="185"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="M9A-cm-Hkk"/>
+        <segue reference="4Ct-wB-Avu"/>
+        <segue reference="iix-hM-pfQ"/>
+        <segue reference="4at-lg-cs8"/>
+        <segue reference="YWz-YP-Tkl"/>
+        <segue reference="nBg-V3-RcC"/>
     </inferredMetricsTieBreakers>
 </document>
