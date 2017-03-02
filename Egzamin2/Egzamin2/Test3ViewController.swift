@@ -17,6 +17,7 @@ class Test3ViewController: UIViewController {
     @IBOutlet weak var button3: UIButton!
     @IBOutlet weak var image: UIImageView!
 
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -30,12 +31,16 @@ class Test3ViewController: UIViewController {
         button3.setTitle(testList[currentIndex].4, for: .normal)
 
     }
-    
+    //let transition = MyAniations()
+
     override func prepare(for segue: UIStoryboardSegue, sender: Any?)         {
         
         if segue.identifier == "segueTest3A"  {    testList[currentIndex].6=1   }
         if segue.identifier == "segueTest3B"  {    testList[currentIndex].6=2   }
         if segue.identifier == "segueTest3C"  {    testList[currentIndex].6=3   }
+        
+        //let dstViewController=segue.destination as UIViewController
+        //dstViewController.transitioningDelegate=transition
     }
 
     
